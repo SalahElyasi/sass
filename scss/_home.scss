@@ -27,4 +27,17 @@
         }
         
     }
+
+    // for 404 PAGE NOT FOUND!
+    .go_back {
+        font-size: 1rem;
+        margin-top: 1rem;
+        color: set-text-color($primary-color);
+
+        &__a {
+            color: #FF0000;
+            font-weight: 500;
+        }
+    }
+
 }
