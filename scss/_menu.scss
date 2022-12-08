@@ -53,6 +53,8 @@
   }
 }
 
+
+
 .nav {
   position: fixed;
   top: 0;
@@ -114,4 +116,9 @@
   .menu-nav__item:nth-child(#{$i}) {
     transition-delay: ($i * 0.1s) + 0.15s;
   }
+}
+
+.menu-transbox {
+  background-color: #ffffff;
+  opacity: 0.7;
 }
