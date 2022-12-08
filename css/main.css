@@ -24,6 +24,15 @@
   color: #ff652f;
   font-weight: 700;
 }
+.home .go_back {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+}
+.home .go_back__a {
+  color: #FF0000;
+  font-weight: 500;
+}
 
 .menu-btn {
   position: absolute;
