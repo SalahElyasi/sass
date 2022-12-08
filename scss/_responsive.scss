@@ -27,6 +27,7 @@
       margin-top: 1rem;
     }
   }
+
 }
 
 @include media-md {
@@ -74,9 +75,16 @@
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
+  .about__bio-image {
+    height: 70vh;
+  }
 }
 
 @include media-lg {
+  .about__bio-image {
+    height: 80vh;
+  }
+
   .projects {
     &__items {
       grid-template-columns: repeat(3, 1fr);
@@ -85,6 +93,8 @@
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  
 }
 
 @include media-xl {
