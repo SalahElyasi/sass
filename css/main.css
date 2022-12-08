@@ -147,6 +147,11 @@
   transition-delay: 0.55s;
 }
 
+.menu-transbox {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
 .about__bio-image {
   height: 50vh;
   width: 100%;
