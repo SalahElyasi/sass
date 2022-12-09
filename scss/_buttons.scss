@@ -1,0 +1,83 @@
+// #inherit the styles from the skill class
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;    
+}
+%skill {
+    padding: 35px 28px;
+    margin-top: 0;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: red;
+    margin-left: 6px;
+    opacity: 0.4;
+    border: none;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    writing-mode: tb-rl;
+    font-weight: 700;
+    
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+}
+
+.skill-js {
+    @extend %skill;
+    
+    &:hover {
+        background-color: #6495ED;
+        color: #000000;
+        -webkit-box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69); 
+        box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69);
+    }
+    
+} 
+
+.skill-react {
+        @extend %skill;
+
+        &:hover {
+        background-color: #FF1493;
+        color: #000000;
+        -webkit-box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69); 
+        box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69);
+    }
+    
+}
+
+
+
+.skill-node {
+    @extend %skill;
+
+    &:hover {
+        background-color: #9932CC;
+        color: #000000;
+        -webkit-box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69); 
+        box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69);
+    }
+}
+
+.skill-css {
+    @extend %skill;
+
+    &:hover {
+        background-color: #008B8B;
+        color: #000000;
+        -webkit-box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69); 
+        box-shadow: -2px 2px 18px -2px rgba(0,0,0,0.69);
+        
+    }
+}

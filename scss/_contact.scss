@@ -31,3 +31,22 @@
     margin-top: 2rem;
   }
 }
+
+%box {
+  padding: 25px 20px;
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+
+.contact__email {
+  @extend %box;
+  
+}
+.contact__phone {
+  @extend %box;
+  
+}
+.contact__address {
+  @extend %box;
+  
+}
