@@ -1,14 +1,20 @@
 @include media-sm {
   .home {
-    padding-top: 55vh;
+    padding-top: 50vh;
 
     &__name {
       font-size: 2.5rem;
   }
+
+  %skill {
+    padding: 25px 18px;
+    font-size: 12px;
+    font-weight: 500;
+  }
   }
 
   .contact {
-    padding-top: 50vh;
+    padding-top: 40vh;
 
     h2 {
       font-size: 2rem;
@@ -26,11 +32,12 @@
       position: initial;
       margin-top: 1rem;
     }
-  }
 
+  }
 }
 
 @include media-md {
+  
   .menu-btn {
     visibility: hidden;
   }
