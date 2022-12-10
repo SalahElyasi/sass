@@ -225,13 +225,18 @@
 
 @media screen and (max-width: 768px) {
   .home {
-    padding-top: 55vh;
+    padding-top: 50vh;
   }
   .home__name {
     font-size: 2.5rem;
   }
+  .home .skill-css, .home .skill-node, .home .skill-react, .home .skill-js {
+    padding: 25px 18px;
+    font-size: 12px;
+    font-weight: 500;
+  }
   .contact {
-    padding-top: 50vh;
+    padding-top: 40vh;
   }
   .contact h2 {
     font-size: 2rem;
@@ -335,30 +340,24 @@
 .skill-css:hover, .skill-node:hover, .skill-react:hover, .skill-js:hover {
   opacity: 0.8;
   cursor: pointer;
+  color: #000000;
+  box-shadow: -2px 2px 18px -2px rgba(0, 0, 0, 0.69);
 }
 
 .skill-js:hover {
   background-color: #6495ED;
-  color: #000000;
-  box-shadow: -2px 2px 18px -2px rgba(0, 0, 0, 0.69);
 }
 
 .skill-react:hover {
   background-color: #FF1493;
-  color: #000000;
-  box-shadow: -2px 2px 18px -2px rgba(0, 0, 0, 0.69);
 }
 
 .skill-node:hover {
   background-color: #9932CC;
-  color: #000000;
-  box-shadow: -2px 2px 18px -2px rgba(0, 0, 0, 0.69);
 }
 
 .skill-css:hover {
   background-color: #008B8B;
-  color: #000000;
-  box-shadow: -2px 2px 18px -2px rgba(0, 0, 0, 0.69);
 }
 
 body {
